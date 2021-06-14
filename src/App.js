@@ -165,6 +165,7 @@ const App = () => {
     .filter(([key]) => key <= level)
     .flatMap(([_, clrs]) => clrs)
   // <nav className={styles.sidebar}>side</nav>
+
   return (
     <div className={styles.root}>
       <main className={styles.main}>
